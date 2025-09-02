@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/ST/STM32Cpp/00_Test/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

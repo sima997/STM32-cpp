@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/ST/STM32Cpp/03_Interrupts_Abstraction/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

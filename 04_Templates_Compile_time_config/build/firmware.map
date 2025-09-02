@@ -1,0 +1,457 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(guard.o)
+                              CMakeFiles/firmware.elf.dir/src/uart.cpp.obj (__cxa_guard_acquire)
+c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+                              CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj (__libc_init_array)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .text._ZN6ButtonC2EhP14IButtonHandler
+                0x00000000       0x34 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .text._ZN4Gpio3setEv
+                0x00000000        0xc CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .text._ZN4Gpio5clearEv
+                0x00000000       0x10 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .text._ZN4Gpio6toggleEv
+                0x00000000       0x10 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .text._ZN4Gpio12enable_clockEP12GPIO_TypeDef
+                0x00000000       0xb0 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .text._ZN4GpioC2EP12GPIO_TypeDefhNS_4ModeENS_3AFxE
+                0x00000000       0x80 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .text._ZN4Gpio16enable_interruptENS_7IrqEdgeE
+                0x00000000      0x1e0 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .data._ZN4Gpio1GE
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .data._ZN4Gpio1FE
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .data._ZN4Gpio1EE
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .data._ZN4Gpio1DE
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .data._ZN4Gpio1CE
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .data._ZN4Gpio1BE
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .data._ZN4Gpio1AE
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .debug_info    0x00000000      0xf3e CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .debug_abbrev  0x00000000      0x373 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .debug_loclists
+                0x00000000      0x24c CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .debug_aranges
+                0x00000000       0x48 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .debug_rnglists
+                0x00000000       0x43 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .debug_line    0x00000000      0x683 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .debug_str     0x00000000      0xd0a CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .comment       0x00000000       0x44 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .debug_frame   0x00000000       0x84 CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .rodata.APBPrescTable
+                0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4Uart4initEmNS_6ParityE
+                0x00000000      0x114 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4UartC2EP13USART_TypeDefmNS_6ParityE
+                0x00000000       0x14 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4Uart11getInstanceEP13USART_TypeDefmNS_6ParityE
+                0x00000000       0xcc CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4Uart8sendCharEc
+                0x00000000        0xc CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4Uart4sendEPKc
+                0x00000000       0x1c CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4Uart5printEPKc
+                0x00000000       0x1c CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .rodata._ZN4Uart7newlineEv.str1.4
+                0x00000000        0x3 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4Uart7newlineEv
+                0x00000000       0x20 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4Uart11receiveCharEv
+                0x00000000       0x10 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4Uart8intToStrEiPc
+                0x00000000       0x64 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text._ZN4Uart7sendIntEi
+                0x00000000       0x2c CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .bss._ZGVZN4Uart11getInstanceEP13USART_TypeDefmNS_6ParityEE14uart3_instance
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .bss._ZZN4Uart11getInstanceEP13USART_TypeDefmNS_6ParityEE14uart3_instance
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .bss._ZGVZN4Uart11getInstanceEP13USART_TypeDefmNS_6ParityEE14uart2_instance
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .bss._ZZN4Uart11getInstanceEP13USART_TypeDefmNS_6ParityEE14uart2_instance
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .bss._ZGVZN4Uart11getInstanceEP13USART_TypeDefmNS_6ParityEE14uart1_instance
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .bss._ZZN4Uart11getInstanceEP13USART_TypeDefmNS_6ParityEE14uart1_instance
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .debug_info    0x00000000     0x1319 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .debug_abbrev  0x00000000      0x4c6 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .debug_loclists
+                0x00000000      0x4e0 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .debug_aranges
+                0x00000000       0x68 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .debug_rnglists
+                0x00000000       0x88 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .debug_line    0x00000000      0x7db CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .debug_str     0x00000000      0x9de CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .comment       0x00000000       0x44 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .debug_frame   0x00000000      0x114 CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+ .text          0x00000000       0x14 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .text          0x00000000        0x0 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(guard.o)
+ .data          0x00000000        0x0 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(guard.o)
+ .bss           0x00000000        0x0 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(guard.o)
+ .text.__cxa_guard_acquire
+                0x00000000       0x18 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(guard.o)
+ .text.__cxa_guard_abort
+                0x00000000        0x6 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(guard.o)
+ .text.__cxa_guard_release
+                0x00000000        0x6 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(guard.o)
+ .debug_frame   0x00000000       0x40 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(guard.o)
+ .ARM.attributes
+                0x00000000       0x2e c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(guard.o)
+ .text          0x00000000        0x0 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+LOAD CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+LOAD CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj
+LOAD CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+LOAD CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+LOAD CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+LOAD CMakeFiles/firmware.elf.dir/src/uart.cpp.obj
+LOAD CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
+START GROUP
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a
+END GROUP
+                0x20008000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000      0x1d8
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1d8 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+                0x08000000                g_pfnVectors
+
+.text           0x080001d8      0x470
+ *(.text*)
+ .text._ZN6Button9handleIrqEv
+                0x080001d8       0x24 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+                0x080001d8                Button::handleIrq()
+ .text._init    0x080001fc        0x4 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+                0x080001fc                _init
+ .text._fini    0x08000200        0x4 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+                0x08000200                _fini
+ .text.EXTI15_10_IRQHandler
+                0x08000204        0x4 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+                0x08000204                EXTI15_10_IRQHandler
+ .text.startup.main
+                0x08000208      0x24c CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000208                main
+ .text.SystemCoreClockUpdate
+                0x08000454       0x84 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x08000454                SystemCoreClockUpdate
+ .text.SystemInit
+                0x080004d8       0x84 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x080004d8                SystemInit
+ .text.Reset_Handler
+                0x0800055c       0x50 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+                0x0800055c                Reset_Handler
+ .text.Default_Handler
+                0x080005ac        0x2 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+                0x080005ac                RTC_Alarm_IRQHandler
+                0x080005ac                EXTI2_IRQHandler
+                0x080005ac                TIM8_TRG_COM_IRQHandler
+                0x080005ac                TIM8_CC_IRQHandler
+                0x080005ac                DebugMon_Handler
+                0x080005ac                TIM1_CC_IRQHandler
+                0x080005ac                HardFault_Handler
+                0x080005ac                USB_HP_IRQHandler
+                0x080005ac                CORDIC_IRQHandler
+                0x080005ac                SysTick_Handler
+                0x080005ac                PendSV_Handler
+                0x080005ac                NMI_Handler
+                0x080005ac                EXTI3_IRQHandler
+                0x080005ac                I2C3_ER_IRQHandler
+                0x080005ac                EXTI0_IRQHandler
+                0x080005ac                I2C2_EV_IRQHandler
+                0x080005ac                FPU_IRQHandler
+                0x080005ac                FDCAN1_IT1_IRQHandler
+                0x080005ac                TIM1_UP_TIM16_IRQHandler
+                0x080005ac                UsageFault_Handler
+                0x080005ac                ADC1_2_IRQHandler
+                0x080005ac                SPI1_IRQHandler
+                0x080005ac                TIM6_DAC_IRQHandler
+                0x080005ac                TIM8_UP_IRQHandler
+                0x080005ac                DMA2_Channel2_IRQHandler
+                0x080005ac                DMA1_Channel4_IRQHandler
+                0x080005ac                USART3_IRQHandler
+                0x080005ac                TIM4_IRQHandler
+                0x080005ac                DMA2_Channel1_IRQHandler
+                0x080005ac                I2C1_EV_IRQHandler
+                0x080005ac                DMA1_Channel6_IRQHandler
+                0x080005ac                UART4_IRQHandler
+                0x080005ac                DMA2_Channel4_IRQHandler
+                0x080005ac                TIM3_IRQHandler
+                0x080005ac                RCC_IRQHandler
+                0x080005ac                DMA1_Channel1_IRQHandler
+                0x080005ac                Default_Handler
+                0x080005ac                RTC_TAMP_LSECSS_IRQHandler
+                0x080005ac                FMAC_IRQHandler
+                0x080005ac                TIM7_IRQHandler
+                0x080005ac                UCPD1_IRQHandler
+                0x080005ac                I2C3_EV_IRQHandler
+                0x080005ac                EXTI9_5_IRQHandler
+                0x080005ac                RTC_WKUP_IRQHandler
+                0x080005ac                PVD_PVM_IRQHandler
+                0x080005ac                SPI2_IRQHandler
+                0x080005ac                MemManage_Handler
+                0x080005ac                SVC_Handler
+                0x080005ac                DMA2_Channel5_IRQHandler
+                0x080005ac                CRS_IRQHandler
+                0x080005ac                DMA1_Channel5_IRQHandler
+                0x080005ac                USB_LP_IRQHandler
+                0x080005ac                EXTI4_IRQHandler
+                0x080005ac                RNG_IRQHandler
+                0x080005ac                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080005ac                DMA1_Channel3_IRQHandler
+                0x080005ac                WWDG_IRQHandler
+                0x080005ac                LPUART1_IRQHandler
+                0x080005ac                DMA2_Channel6_IRQHandler
+                0x080005ac                FDCAN1_IT0_IRQHandler
+                0x080005ac                TIM2_IRQHandler
+                0x080005ac                COMP1_2_3_IRQHandler
+                0x080005ac                EXTI1_IRQHandler
+                0x080005ac                USART2_IRQHandler
+                0x080005ac                I2C2_ER_IRQHandler
+                0x080005ac                DMA1_Channel2_IRQHandler
+                0x080005ac                TIM8_BRK_IRQHandler
+                0x080005ac                FLASH_IRQHandler
+                0x080005ac                BusFault_Handler
+                0x080005ac                USART1_IRQHandler
+                0x080005ac                SPI3_IRQHandler
+                0x080005ac                I2C1_ER_IRQHandler
+                0x080005ac                LPTIM1_IRQHandler
+                0x080005ac                DMAMUX_OVR_IRQHandler
+                0x080005ac                USBWakeUp_IRQHandler
+                0x080005ac                SAI1_IRQHandler
+                0x080005ac                DMA2_Channel3_IRQHandler
+                0x080005ac                COMP4_IRQHandler
+                0x080005ac                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x080005ae        0x2 
+ .text.__libc_init_array
+                0x080005b0       0x48 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+                0x080005b0                __libc_init_array
+ *(.rodata*)
+ .rodata        0x080005f8       0x3f CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ *fill*         0x08000637        0x1 
+ .rodata.AHBPrescTable
+                0x08000638       0x10 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x08000638                AHBPrescTable
+
+.glue_7         0x08000648        0x0
+ .glue_7        0x08000648        0x0 linker stubs
+
+.glue_7t        0x08000648        0x0
+ .glue_7t       0x08000648        0x0 linker stubs
+
+.vfp11_veneer   0x08000648        0x0
+ .vfp11_veneer  0x08000648        0x0 linker stubs
+
+.v4_bx          0x08000648        0x0
+ .v4_bx         0x08000648        0x0 linker stubs
+
+.iplt           0x08000648        0x0
+ .iplt          0x08000648        0x0 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+
+.rel.dyn        0x08000648        0x0
+ .rel.iplt      0x08000648        0x0 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+
+.data           0x20000000        0x4 load address 0x08000648
+                0x20000000                        _sdata = .
+ *(.data*)
+ .data.SystemCoreClock
+                0x20000000        0x4 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x20000000                SystemCoreClock
+                0x20000004                        _edata = .
+
+.igot.plt       0x20000004        0x0 load address 0x0800064c
+ .igot.plt      0x20000004        0x0 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+
+.bss            0x20000004        0x4 load address 0x0800064c
+                0x20000004                        _sbss = .
+ *(.bss*)
+ .bss._ZN6Button8handler_E
+                0x20000004        0x4 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+                0x20000004                Button::handler_
+                0x20000008                        _ebss = .
+                0x08000648                        _sidata = LOADADDR (.data)
+OUTPUT(firmware.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x2659
+ .debug_info    0x00000000      0x828 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .debug_info    0x00000828       0x47 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_info    0x0000086f      0x3df CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .debug_info    0x00000c4e     0x145d CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_info    0x000020ab      0x473 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_info    0x0000251e       0x30 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .debug_info    0x0000254e      0x10b c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.debug_abbrev   0x00000000      0x983
+ .debug_abbrev  0x00000000      0x2ee CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .debug_abbrev  0x000002ee       0x47 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_abbrev  0x00000335       0xef CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .debug_abbrev  0x00000424      0x342 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_abbrev  0x00000766      0x130 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_abbrev  0x00000896       0x24 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .debug_abbrev  0x000008ba       0xc9 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.debug_loclists
+                0x00000000      0x22e
+ .debug_loclists
+                0x00000000       0x6c CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .debug_loclists
+                0x0000006c      0x100 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_loclists
+                0x0000016c       0x7e CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_loclists
+                0x000001ea       0x44 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.debug_aranges  0x00000000      0x100
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .debug_aranges
+                0x00000028       0x28 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_aranges
+                0x00000050       0x20 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .debug_aranges
+                0x00000070       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_aranges
+                0x00000090       0x28 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_aranges
+                0x000000b8       0x28 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .debug_aranges
+                0x000000e0       0x20 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.debug_rnglists
+                0x00000000       0xdf
+ .debug_rnglists
+                0x00000000       0x25 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .debug_rnglists
+                0x00000025       0x19 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_rnglists
+                0x0000003e       0x13 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .debug_rnglists
+                0x00000051       0x47 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_rnglists
+                0x00000098       0x1b CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_rnglists
+                0x000000b3       0x19 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .debug_rnglists
+                0x000000cc       0x13 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.debug_line     0x00000000     0x1379
+ .debug_line    0x00000000      0x359 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .debug_line    0x00000359       0x81 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_line    0x000003da      0x2d5 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .debug_line    0x000006af      0x7bb CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_line    0x00000e6a      0x324 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_line    0x0000118e       0x7b CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .debug_line    0x00001209      0x170 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.debug_str      0x00000000     0x23bf
+ .debug_str     0x00000000     0x23bf CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+                                0x707 (size before relaxing)
+ .debug_str     0x000023bf      0x175 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_str     0x000023bf      0x4a4 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .debug_str     0x000023bf     0x1e3e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_str     0x000023bf      0x426 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_str     0x000023bf       0x98 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .debug_str     0x000023bf      0x26c c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.comment        0x00000000       0x43
+ .comment       0x00000000       0x43 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+                                 0x44 (size before relaxing)
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .comment       0x00000043       0x44 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .ARM.attributes
+                0x0000002e       0x2e CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .ARM.attributes
+                0x0000005c       0x2e CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .ARM.attributes
+                0x0000008a       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .ARM.attributes
+                0x000000b8       0x2e CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .ARM.attributes
+                0x000000e6       0x21 CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj
+ .ARM.attributes
+                0x00000107       0x2e c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.debug_frame    0x00000000      0x110
+ .debug_frame   0x00000000       0x40 CMakeFiles/firmware.elf.dir/src/button.cpp.obj
+ .debug_frame   0x00000040       0x30 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_frame   0x00000070       0x20 CMakeFiles/firmware.elf.dir/src/isr.cpp.obj
+ .debug_frame   0x00000090       0x24 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_frame   0x000000b4       0x30 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_frame   0x000000e4       0x2c c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+
+.debug_line_str
+                0x00000000       0x7c
+ .debug_line_str
+                0x00000000       0x7c CMakeFiles/firmware.elf.dir/startup_stm32g431xx.s.obj

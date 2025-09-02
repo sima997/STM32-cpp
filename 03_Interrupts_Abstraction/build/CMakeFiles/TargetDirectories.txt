@@ -1,0 +1,3 @@
+C:/ST/STM32Cpp/03_Interrupts_Abstraction/build/CMakeFiles/firmware.elf.dir
+C:/ST/STM32Cpp/03_Interrupts_Abstraction/build/CMakeFiles/edit_cache.dir
+C:/ST/STM32Cpp/03_Interrupts_Abstraction/build/CMakeFiles/rebuild_cache.dir

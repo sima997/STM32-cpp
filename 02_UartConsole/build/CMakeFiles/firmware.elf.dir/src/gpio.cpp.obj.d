@@ -1,0 +1,22 @@
+CMakeFiles/firmware.elf.dir/src/gpio.cpp.obj: \
+ C:/ST/STM32Cpp/02_UartConsole/src/gpio.cpp \
+ C:/ST/STM32Cpp/02_UartConsole/include/gpio.hpp \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/cstdint \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/c++config.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/os_defines.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/cpu_defines.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/pstl/pstl_config.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/stdint.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/machine/_default_types.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/features.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/_newlib_version.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_intsup.h \
+ c:\ST\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_stdint.h \
+ C:/ST/STM32Cpp/02_UartConsole/include/stm32g431xx.h \
+ C:/ST/STM32Cpp/02_UartConsole/include/core_cm4.h \
+ C:/ST/STM32Cpp/02_UartConsole/include/cmsis_version.h \
+ C:/ST/STM32Cpp/02_UartConsole/include/cmsis_compiler.h \
+ C:/ST/STM32Cpp/02_UartConsole/include/cmsis_gcc.h \
+ C:/ST/STM32Cpp/02_UartConsole/include/mpu_armv7.h \
+ C:/ST/STM32Cpp/02_UartConsole/include/system_stm32g4xx.h

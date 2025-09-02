@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/ST/STM32Cpp/04_Templates_Compile_time_config/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

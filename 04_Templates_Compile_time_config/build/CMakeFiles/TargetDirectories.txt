@@ -1,0 +1,3 @@
+C:/ST/STM32Cpp/04_Templates_Compile_time_config/build/CMakeFiles/firmware.elf.dir
+C:/ST/STM32Cpp/04_Templates_Compile_time_config/build/CMakeFiles/edit_cache.dir
+C:/ST/STM32Cpp/04_Templates_Compile_time_config/build/CMakeFiles/rebuild_cache.dir

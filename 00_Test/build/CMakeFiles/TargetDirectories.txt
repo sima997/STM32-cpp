@@ -1,0 +1,3 @@
+C:/ST/STM32Cpp/00_Test/build/CMakeFiles/firmware.elf.dir
+C:/ST/STM32Cpp/00_Test/build/CMakeFiles/edit_cache.dir
+C:/ST/STM32Cpp/00_Test/build/CMakeFiles/rebuild_cache.dir

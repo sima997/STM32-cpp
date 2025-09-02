@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/ST/STM32Cpp/05_State_machines_Drivers/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

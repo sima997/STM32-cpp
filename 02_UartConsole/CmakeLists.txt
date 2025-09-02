@@ -1,0 +1,66 @@
+cmake_minimum_required(VERSION 3.20)
+project(stm32_cpp_baremetal LANGUAGES C CXX ASM)
+
+# MCU setup
+set(MCU "cortex-m4")
+# MCU setup
+set(CPU_FLAGS
+    -mcpu=cortex-m4
+    -mthumb
+    -O2
+    -ffunction-sections
+    -fdata-sections
+)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)   # bump to C++17 (still lightweight, but modern)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Toolchain
+set(CMAKE_C_COMPILER "C:/ST/GCC/bin/arm-none-eabi-gcc.exe")
+set(CMAKE_CXX_COMPILER "C:/ST/GCC/bin/arm-none-eabi-g++.exe")
+set(CMAKE_OBJCOPY "C:/ST/GCC/bin/arm-none-eabi-objcopy.exe")
+
+# Common compile options
+add_compile_options(
+    ${CPU_FLAGS}
+    -Wall
+    -Wextra
+    -fno-exceptions
+    -fno-rtti
+    -fno-unwind-tables
+    -fno-asynchronous-unwind-tables
+)
+
+# Include directories
+include_directories(include)
+
+# Source files
+set(SOURCES
+    src/main.cpp 
+    src/gpio.cpp
+    src/system_stm32g4xx.c
+    src/crt_stubs.c
+    src/uart.cpp
+    startup_stm32g431xx.s 
+)
+
+# Executable
+add_executable(firmware.elf ${SOURCES})
+
+# Linker script + linker options
+target_link_options(firmware.elf PRIVATE
+    -T${CMAKE_SOURCE_DIR}/stm32f407xx.ld
+    -Wl,-Map=firmware.map
+    -nostartfiles
+    -Wl,--gc-sections
+    --specs=nosys.specs
+    --specs=nano.specs
+)
+
+# Post-build: convert ELF -> BIN
+add_custom_command(TARGET firmware.elf POST_BUILD
+    COMMAND ${CMAKE_OBJCOPY} -O binary firmware.elf firmware.bin
+)
+
+set(CMAKE_BUILD_TYPE Debug)

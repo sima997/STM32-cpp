@@ -1,0 +1,3 @@
+C:/ST/STM32Cpp/02_UartConsole/build/CMakeFiles/firmware.elf.dir
+C:/ST/STM32Cpp/02_UartConsole/build/CMakeFiles/edit_cache.dir
+C:/ST/STM32Cpp/02_UartConsole/build/CMakeFiles/rebuild_cache.dir

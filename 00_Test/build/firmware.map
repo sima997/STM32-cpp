@@ -1,0 +1,207 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-init.o)
+                              CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj (__libc_init_array)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .text          0x00000000       0x14 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .text          0x00000000        0x0 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-init.o)
+ .data          0x00000000        0x0 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-init.o)
+ .bss           0x00000000        0x0 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-init.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+LOAD CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+LOAD CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+LOAD CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++.a
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
+START GROUP
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
+END GROUP
+                0x20008000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000      0x1d8
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1d8 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+                0x08000000                g_pfnVectors
+
+.text           0x080001d8      0x194
+ *(.text*)
+ .text.startup  0x080001d8       0x50 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080001d8                main
+ .text          0x08000228       0x88 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x08000228                SystemInit
+                0x0800022c                SystemCoreClockUpdate
+ .text          0x080002b0        0x8 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+                0x080002b0                _init
+                0x080002b4                _fini
+ .text.Reset_Handler
+                0x080002b8       0x50 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+                0x080002b8                Reset_Handler
+ .text.Default_Handler
+                0x08000308        0x2 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+                0x08000308                RTC_Alarm_IRQHandler
+                0x08000308                EXTI2_IRQHandler
+                0x08000308                TIM8_TRG_COM_IRQHandler
+                0x08000308                TIM8_CC_IRQHandler
+                0x08000308                DebugMon_Handler
+                0x08000308                TIM1_CC_IRQHandler
+                0x08000308                HardFault_Handler
+                0x08000308                USB_HP_IRQHandler
+                0x08000308                CORDIC_IRQHandler
+                0x08000308                SysTick_Handler
+                0x08000308                PendSV_Handler
+                0x08000308                NMI_Handler
+                0x08000308                EXTI3_IRQHandler
+                0x08000308                I2C3_ER_IRQHandler
+                0x08000308                EXTI0_IRQHandler
+                0x08000308                I2C2_EV_IRQHandler
+                0x08000308                FPU_IRQHandler
+                0x08000308                FDCAN1_IT1_IRQHandler
+                0x08000308                TIM1_UP_TIM16_IRQHandler
+                0x08000308                UsageFault_Handler
+                0x08000308                ADC1_2_IRQHandler
+                0x08000308                SPI1_IRQHandler
+                0x08000308                TIM6_DAC_IRQHandler
+                0x08000308                TIM8_UP_IRQHandler
+                0x08000308                DMA2_Channel2_IRQHandler
+                0x08000308                DMA1_Channel4_IRQHandler
+                0x08000308                USART3_IRQHandler
+                0x08000308                TIM4_IRQHandler
+                0x08000308                DMA2_Channel1_IRQHandler
+                0x08000308                I2C1_EV_IRQHandler
+                0x08000308                DMA1_Channel6_IRQHandler
+                0x08000308                UART4_IRQHandler
+                0x08000308                DMA2_Channel4_IRQHandler
+                0x08000308                TIM3_IRQHandler
+                0x08000308                RCC_IRQHandler
+                0x08000308                DMA1_Channel1_IRQHandler
+                0x08000308                Default_Handler
+                0x08000308                RTC_TAMP_LSECSS_IRQHandler
+                0x08000308                FMAC_IRQHandler
+                0x08000308                EXTI15_10_IRQHandler
+                0x08000308                TIM7_IRQHandler
+                0x08000308                UCPD1_IRQHandler
+                0x08000308                I2C3_EV_IRQHandler
+                0x08000308                EXTI9_5_IRQHandler
+                0x08000308                RTC_WKUP_IRQHandler
+                0x08000308                PVD_PVM_IRQHandler
+                0x08000308                SPI2_IRQHandler
+                0x08000308                MemManage_Handler
+                0x08000308                SVC_Handler
+                0x08000308                DMA2_Channel5_IRQHandler
+                0x08000308                CRS_IRQHandler
+                0x08000308                DMA1_Channel5_IRQHandler
+                0x08000308                USB_LP_IRQHandler
+                0x08000308                EXTI4_IRQHandler
+                0x08000308                RNG_IRQHandler
+                0x08000308                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000308                DMA1_Channel3_IRQHandler
+                0x08000308                WWDG_IRQHandler
+                0x08000308                LPUART1_IRQHandler
+                0x08000308                DMA2_Channel6_IRQHandler
+                0x08000308                FDCAN1_IT0_IRQHandler
+                0x08000308                TIM2_IRQHandler
+                0x08000308                COMP1_2_3_IRQHandler
+                0x08000308                EXTI1_IRQHandler
+                0x08000308                USART2_IRQHandler
+                0x08000308                I2C2_ER_IRQHandler
+                0x08000308                DMA1_Channel2_IRQHandler
+                0x08000308                TIM8_BRK_IRQHandler
+                0x08000308                FLASH_IRQHandler
+                0x08000308                BusFault_Handler
+                0x08000308                USART1_IRQHandler
+                0x08000308                SPI3_IRQHandler
+                0x08000308                I2C1_ER_IRQHandler
+                0x08000308                LPTIM1_IRQHandler
+                0x08000308                DMAMUX_OVR_IRQHandler
+                0x08000308                USBWakeUp_IRQHandler
+                0x08000308                SAI1_IRQHandler
+                0x08000308                DMA2_Channel3_IRQHandler
+                0x08000308                COMP4_IRQHandler
+                0x08000308                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x0800030a        0x2 
+ .text.__libc_init_array
+                0x0800030c       0x48 c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-init.o)
+                0x0800030c                __libc_init_array
+ *(.rodata*)
+ .rodata        0x08000354       0x18 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x08000354                AHBPrescTable
+                0x08000364                APBPrescTable
+
+.glue_7         0x0800036c        0x0
+ .glue_7        0x0800036c        0x0 linker stubs
+
+.glue_7t        0x0800036c        0x0
+ .glue_7t       0x0800036c        0x0 linker stubs
+
+.vfp11_veneer   0x0800036c        0x0
+ .vfp11_veneer  0x0800036c        0x0 linker stubs
+
+.v4_bx          0x0800036c        0x0
+ .v4_bx         0x0800036c        0x0 linker stubs
+
+.iplt           0x0800036c        0x0
+ .iplt          0x0800036c        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+
+.rel.dyn        0x0800036c        0x0
+ .rel.iplt      0x0800036c        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+
+.data           0x20000000        0x4 load address 0x0800036c
+                0x20000000                        _sdata = .
+ *(.data*)
+ .data          0x20000000        0x4 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x20000000                SystemCoreClock
+                0x20000004                        _edata = .
+
+.igot.plt       0x20000004        0x0 load address 0x08000370
+ .igot.plt      0x20000004        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+
+.bss            0x20000004        0x0
+                0x20000004                        _sbss = .
+ *(.bss*)
+                0x20000004                        _ebss = .
+                0x0800036c                        _sidata = LOADADDR (.data)
+OUTPUT(firmware.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x00000000       0x43
+ .comment       0x00000000       0x43 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                                 0x44 (size before relaxing)
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .ARM.attributes
+                0x0000002e       0x2e CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .ARM.attributes
+                0x0000005c       0x2e CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .ARM.attributes
+                0x0000008a       0x21 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .ARM.attributes
+                0x000000ab       0x2e c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-init.o)
+
+.debug_frame    0x00000000       0x2c
+ .debug_frame   0x00000000       0x2c c:/ST/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-init.o)
